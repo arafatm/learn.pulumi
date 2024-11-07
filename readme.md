@@ -54,4 +54,8 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 `gaddcommit readme`
 ```
 
+🚢 [b6f70b1](https://github.com/arafatm/learn.pulumi/commit/b6f70b1) ```bash
+gaddcommit readme.md
+```
+
 xxx
