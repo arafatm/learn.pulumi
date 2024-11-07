@@ -50,6 +50,7 @@ kubectl config use-context pulumi
 🚢 [2522187](https://github.com/arafatm/learn.pulumi/commit/2522187) 
 ```bash
 pulumi install
+pulumi new kubenetes-go
 ```
 
 xxx
