@@ -38,13 +38,15 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 > pulumi version
 
-🚢 [992af4f](https://github.com/arafatm/learn.pulumi/commit/992af4f) 
-> `ls`
 
-🚢 [f2f6752](https://github.com/arafatm/learn.pulumi/commit/f2f6752) 
+🚢 [9046e20](https://github.com/arafatm/learn.pulumi/commit/9046e20) 
 ```bash
-`ls`
+`${lastcommand}`
 ```
 
+🚢 [9046e20](https://github.com/arafatm/learn.pulumi/commit/9046e20) 
+```bash
+`${lastcommand}`
+```
 
 xxx
