@@ -24,4 +24,7 @@
 
 > `sudo chmod 644 /etc/apt/sources.list.d/kubernetes.list` # helps tools such as command-not-found to work correctly  
 
+> sudo apt update  
+> sudo apt install -y kubelet kubeadm kubectl
+
 xxx
