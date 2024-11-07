@@ -7,6 +7,6 @@
 🚢 [4a112c8](https://github.com/arafatm/learn.pulumi/commit/4a112c8)
 > `sudo apt install -y docker.io`
 🚢 [883dfc7](https://github.com/arafatm/learn.pulumi/commit/883dfc7)
-> `sudo docker --version`
+> `sudo docker --version` # Docker version 24.0.7, build 24.0.7-0ubuntu4.1
 
 xxx
