@@ -33,4 +33,9 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 ## Pulumi
 
+🚢 [81af0e3](https://github.com/arafatm/learn.pulumi/commit/81af0e3) 
+> `curl -fsSL https://get.pulumi.com | sh`
+
+> pulumi version
+
 xxx
