@@ -41,10 +41,15 @@ source .bashrc
 pulumi version                          # $v3.138.0
 ```
 
-Set up Kubectl
+🚢 Set up Kubectl
 ```bash
 kubectl config set-context pulumi --cluster=pulumi --namespace=pulumi --user=pulumi
 kubectl config use-context pulumi
+```
+
+🚢 [324f8fb](https://github.com/arafatm/learn.pulumi/commit/324f8fb) 
+```bash
+pulumi install
 ```
 
 xxx
