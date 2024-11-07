@@ -38,4 +38,7 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 
 > pulumi version
 
+🚢 [992af4f](https://github.com/arafatm/learn.pulumi/commit/992af4f) 
+> `ls`
+
 xxx
