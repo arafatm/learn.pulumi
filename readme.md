@@ -49,4 +49,9 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 `${lastcommand}`
 ```
 
+🚢 [d65e145](https://github.com/arafatm/learn.pulumi/commit/d65e145) 
+```bash
+`gaddcommit readme`
+```
+
 xxx
