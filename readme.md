@@ -2,7 +2,7 @@
 
 [How to Install Kubernetes (K8s) on Ubuntu 24.04](https://hostnextra.com/learn/tutorials/how-to-install-kubernetes-k8s-on-ubuntu)
 
-###### Docker
+## Docker & Kubectl
 
 🚢 [c53c2df](https://github.com/arafatm/learn.pulumi/commit/c53c2df) 
 > `sudo apt update sudo apt upgrade -y`
@@ -30,5 +30,7 @@ sudo apt-mark hold kubelet kubeadm kubectl
 sudo swapoff -a 
 sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 ```
+
+## Pulumi
 
 xxx
