@@ -16,4 +16,7 @@
 
 ###### [Install and Set Up kubectl on Linux | Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
 
+> `curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.31/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg`  
+> `sudo chmod 644 /etc/apt/keyrings/kubernetes-apt-keyring.gpg` # allow unprivileged APT programs to read this keyring`
+
 xxx
