@@ -2,7 +2,7 @@
 
 [How to Install Kubernetes (K8s) on Ubuntu 24.04](https://hostnextra.com/learn/tutorials/how-to-install-kubernetes-k8s-on-ubuntu)
 
-## Docker & Kubectl
+## Docker 
 
 🚢 [c53c2df](https://github.com/arafatm/learn.pulumi/commit/c53c2df) 
 > `sudo apt update sudo apt upgrade -y`
@@ -14,7 +14,8 @@
 > `sudo docker --version`  
 > #> Docker version 24.0.7, build 24.0.7-0ubuntu4.1
 
-###### [Install and Set Up kubectl on Linux | Kubernetes](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
+## kubectl on Linux
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
 
 ```bash
 curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.31/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg  
@@ -34,9 +35,19 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 ## Pulumi
 
 🚢 [81af0e3](https://github.com/arafatm/learn.pulumi/commit/81af0e3) 
-> `curl -fsSL https://get.pulumi.com | sh`
+```bash
+curl -fsSL https://get.pulumi.com | sh
+source .bashrc
+pulumi version                          # $v3.138.0
+```
 
-> pulumi version
-
+Set up Kubectl
+```bash
+kubectl config set-context pulumi --cluster=pulumi --namespace=pulumi --user=pulumi
+kubectl config use-context pulumi
+```
 
 xxx
+
+
+
