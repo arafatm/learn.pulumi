@@ -41,4 +41,10 @@ sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
 🚢 [992af4f](https://github.com/arafatm/learn.pulumi/commit/992af4f) 
 > `ls`
 
+🚢 [f2f6752](https://github.com/arafatm/learn.pulumi/commit/f2f6752) 
+```bash
+`ls`
+```
+
+
 xxx
