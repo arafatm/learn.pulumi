@@ -51,6 +51,7 @@ kubectl config use-context pulumi
 ```bash
 pulumi install
 pulumi new kubernetes-go
+pulumi up
 ```
 
 xxx
