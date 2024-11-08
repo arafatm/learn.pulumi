@@ -14,23 +14,18 @@
 > `sudo docker --version`  
 > #> Docker version 24.0.7, build 24.0.7-0ubuntu4.1
 
-## kubectl on Linux
-https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/#install-using-native-package-management)
+## minikube (kubernetes) on Linux
 
+[minikube start | minikube](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download#LoadBalancer)
+
+🚢 [987f397](https://github.com/arafatm/learn.pulumi/commit/987f397) 
 ```bash
-curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.31/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg  
-sudo chmod 644 /etc/apt/keyrings/kubernetes-apt-keyring.gpg # allow unprivileged APT programs to read this keyring  
-echo 'deb [signed-by=/etc/apt/keyrings/kubernetes-apt-keyring.gpg] https://pkgs.k8s.io/core:/stable:/v1.31/deb/ /' | sudo tee /etc/apt/sources.list.d/kubernetes.list  
-sudo chmod 644 /etc/apt/sources.list.d/kubernetes.list # helps tools such as command-not-found to work correctly  
-
-sudo apt update  
-sudo apt install -y kubelet kubeadm kubectl
-sudo apt-mark hold kubelet kubeadm kubectl
-
-# Kubernetes requires swap to be disabled.
-sudo swapoff -a 
-sudo sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube 
+rm minikube-linux-amd64
 ```
+
+xxx
 
 ## Pulumi
 
@@ -53,8 +48,6 @@ pulumi install
 pulumi new kubernetes-go
 pulumi up
 ```
-
-xxx
 
 
 
