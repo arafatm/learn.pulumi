@@ -25,6 +25,21 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 rm minikube-linux-amd64
 ```
 
+🚢 [49557af](https://github.com/arafatm/learn.pulumi/commit/49557af) 
+```bash
+minikube dashboard
+```
+
+### Create a Deployment
+
+[Kubernetes Pod](https://kubernetes.io/docs/concepts/workloads/pods/) is a
+group of one or more Containers, tied together for the purposes of
+administration and networking. 
+
+[A Kubernetes Deployment](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+checks on the health of your Pod and restarts the Pod's Container if it
+terminates. 
+
 xxx
 
 ## Pulumi
